@@ -1,0 +1,20 @@
+{
+  "name": "metabase-local",
+  "sdk": "typescript",
+  "dependencies": [
+    {
+      "name": "postgres",
+      "source": "github.com/quartz-technology/daggerverse/postgres@627fc4df7de8ce3bd8710fa08ea2db6cf16712b3"
+    }
+  ],
+  "source": "dagger",
+  "engineVersion": "v0.11.5",
+  "views": [
+    {
+      "name": "default",
+      "patterns": [
+        "!**/node_modules"
+      ]
+    }
+  ]
+}
